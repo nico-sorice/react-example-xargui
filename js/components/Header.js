@@ -34,7 +34,7 @@ window.AppHeader = ({
                                                           </td>
                                                           <td>{item.producto.titulo}</td>
                                                           <td>${item.producto.precioConDescuento}</td>
-                                                          <td>{item.cantidad} </td>
+                                                          <td>{item.cantidad} (${item.cantidad * item.producto.precioConDescuento})</td>
                                                           <td>
                                                               <a
                                                                 onClick={() => quitarProductoDelCarritoHandler(item.producto, 1)}
