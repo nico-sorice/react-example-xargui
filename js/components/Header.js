@@ -8,7 +8,7 @@ window.AppHeader = ({
             <div className="container">
                 <div className="row">
                     <div className="four columns">
-                        <img src="/img/logo.jpg" id="logo"/>
+                        <img src="img/logo.jpg" id="logo"/>
                     </div>
                     <div className="two columns u-pull-right">
                         <ul>
